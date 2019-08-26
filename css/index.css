@@ -1,0 +1,28 @@
+:root {
+     color: #606060;
+}
+
+header {
+    background-color: #f7f6f6;
+}
+
+hr {
+    border: none;
+    background-color:#606060;
+    color:#606060;
+    height: 1px;
+   }
+
+   #subscribe {
+       background-color: #f7f6f6;
+   }
+
+   main {
+text-align: center;
+}
+
+.footerdown {
+    color: white;
+    background-color: black;
+
+}

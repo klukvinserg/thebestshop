@@ -1,0 +1,18 @@
+figure {
+    display: block;
+    float: left;
+    text-align: center;
+   }
+
+   div {
+       clear: both;
+   }
+
+   hr {
+    border: none;
+    background-color:#606060;
+    color:#606060;
+    height: 1px;
+   }
+   
+
