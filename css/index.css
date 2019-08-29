@@ -1,28 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton&display=swap');
+
 :root {
-     color: #606060;
+     --background-color: #f7f6f6;
+     --font-color: #606060;
+     font-family: 'Anton', sans-serif;
+     scroll-behavior: smooth;
 }
 
-header {
-    background-color: #f7f6f6;
+body {
+    max-width: 980px;
+    margin: auto;
 }
 
-hr {
-    border: none;
-    background-color:#606060;
-    color:#606060;
-    height: 1px;
-   }
-
-   #subscribe {
-       background-color: #f7f6f6;
-   }
-
-   main {
-text-align: center;
+header .logobackground {
+    padding: 10px;
 }
 
-.footerdown {
+nav {
+    background-color: var(--background-color);
+}
+
+header .logomain {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2rem;
+    text-align: center;
     color: white;
     background-color: black;
+    width: 280px;
+    margin: 1rem auto;
+}
+
+header .logomain .logounder {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+header .slide img {
+     width: 100%;
+    }
+
+header nav div ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+
+header nav .menu li a {
+    text-decoration: none;
+    color: var(--font-color);
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    padding: 3px;
 
 }
+
+header nav .menu li a:hover {
+    border: 2px solid var(--font-color);
+    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+}
+
+@media (min-width: 650px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+    header nav .menu {
+        flex: 1;
+}
+
+header nav div .menu {
+    margin: 0;
+}
+
