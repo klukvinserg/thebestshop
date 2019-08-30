@@ -71,7 +71,7 @@ header nav .menu li a:hover {
         width: 250px;
         margin: 5px 5px;
     }
-    header nav .menu {
+    header nav .menuline {
         flex: 1;
     }
 }
