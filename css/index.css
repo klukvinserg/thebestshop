@@ -12,67 +12,77 @@ body {
     margin: auto;
 }
 
-header .logobackground {
-    padding: 10px;
-}
-
-nav {
+header nav {
     background-color: var(--background-color);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+header nav .logobackground {
+    background-color: black;
+    width: 250px;
+    margin: 5px auto;
 }
 
-header .logomain {
+header nav .logobackground .logomain {
     font-family: 'Alfa Slab One', cursive;
     font-size: 2rem;
     text-align: center;
     color: white;
-    background-color: black;
-    width: 280px;
-    margin: 1rem auto;
 }
 
-header .logomain .logounder {
+header nav .logobackground .logounder {
     font-family: 'Alfa Slab One', cursive;
     font-size: 1rem;
     text-align: center;
     color: white;
 }
 
-header .slide img {
-     width: 100%;
-    }
-
-header nav div ul {
+header nav div .menu {
     display: flex;
     padding: 0;
+    font-size: 0.8rem;
     list-style-type: none;
     justify-content: space-around;
+    margin: 10px;
 }
 
-
-header nav .menu li a {
+header nav div .menu li a {
     text-decoration: none;
     color: var(--font-color);
     text-transform: uppercase;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     padding: 3px;
-
 }
 
 header nav .menu li a:hover {
-    border: 2px solid var(--font-color);
+    border: 1px solid var(--font-color);
     text-shadow: 0 0 .65px #333, 0 0 .65px #333;
 }
 
-@media (min-width: 650px) {
+
+@media (min-width: 600px) {
     header nav {
         display: flex;
         align-items: center;
     }
+    header nav .logobackground {
+        background-color: black;
+        width: 250px;
+        margin: 5px 5px;
+    }
     header nav .menu {
         flex: 1;
+    }
 }
 
-header nav div .menu {
-    margin: 0;
-}
+header .slide img {
+     width: 100%;
+    }
+
+
+
+
+
+
 
