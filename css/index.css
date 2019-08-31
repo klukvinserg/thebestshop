@@ -66,7 +66,6 @@ header nav .menulinetop {
      align-items: center;
  }
 
-
 header nav .logobackground {
     background-color: black;
     width: 250px;
@@ -172,3 +171,59 @@ header .slide img {
     padding: 0.3em;
 }
 
+header .banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .banner p {
+	color : white;
+    font-size: 2.3rem;
+	letter-spacing : -1px;
+	background : rgb(0, 0, 0);
+	background : rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+    font-weight: bold;
+}
+
+.buttonbanner {
+    display: inline-block;
+    padding: 0.35em 2em;
+    border: 0.12em solid black;
+    margin: 0.3em;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.buttonbanner:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.card-button {
+    border-color: white;
+    color: black;
+}
+
+.card-button:hover {
+    background-color: white;
+    color: white;
+}
+
+.inputhight {
+    padding: 0.3em;
+}
