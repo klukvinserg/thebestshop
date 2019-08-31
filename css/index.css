@@ -79,6 +79,10 @@ header nav .logobackground .logomain {
     color: white;
 }
 
+header nav .menumain .logobackground a {
+    text-decoration: none;
+}
+
 header nav .logobackground .logounder {
     font-family: 'Alfa Slab One', cursive;
     font-size: 1rem;
